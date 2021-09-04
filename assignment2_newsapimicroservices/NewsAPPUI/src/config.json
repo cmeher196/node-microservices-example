@@ -1,0 +1,65 @@
+{
+    "filterOptions": [
+        {
+            "endpoints": [
+                {
+                    "type": "Top Headlines",
+                    "url": "https://newsapi.org/v2/top-headlines?country=in&apikey=7dee10e8c7844bde81b49e2e4596d0ac&page=1"
+                },
+                {
+                    "type": "Everything",
+                    "url": "https://newsapi.org/v2/everything?country=in&apikey=7dee10e8c7844bde81b49e2e4596d0ac&page=1"
+                },
+                {
+                    "type": "Sources",
+                    "url": "https://newsapi.org/v2/sources?country=in&apikey=7dee10e8c7844bde81b49e2e4596d0ac&page=1"
+                }
+            ]
+        },
+        {
+            "country": {
+                "type": "Country",
+                "countrycode": "ae ar at au be bg br ca ch cn co cu cz de eg fr gb gr hk hu id ie il in it jp kr lt lv ma mx my ng nl no nz ph pl pt ro rs ru sa se sg si sk th tr tw ua us ve za"
+            }
+        },
+        {
+            "category" :{
+                "type":"Category",
+                "categories": "business entertainment general health science sports technology"
+            }
+        },
+        {
+            "options":[
+                {
+                    "id":1,
+                    "value":"Endpoints"
+                },
+                {
+                    "id":2,
+                    "value":"country"
+                },
+                {
+                    "id":3,
+                    "value":"category"
+                },
+                {
+                    "id":4,
+                    "value":"sources"
+                },
+                {
+                    "id":5,
+                    "value":"q"
+                },
+                {
+                    "id":6,
+                    "value":"pageSize"
+                },
+                {
+                    "id":7,
+                    "value":"page"
+                }
+            ]
+        }
+
+    ]
+}

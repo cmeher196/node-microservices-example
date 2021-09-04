@@ -1,0 +1,29 @@
+{
+  "name": "assignment1_newsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "test": "mocha ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab-ibm.stackroute.in/stack_nodejs/assignment1_newsapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "supertest": "^6.1.3"
+  }
+}
